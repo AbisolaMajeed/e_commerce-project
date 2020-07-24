@@ -1,0 +1,78 @@
+form{
+	border: 1px solid #09f;
+	border-radius: 10px;
+	width: 600px;
+	margin: auto;
+	padding: 10px;
+	background-color: lightblue;
+	box-shadow: 0 30px 60px 0 rgba(0,0,0,0.3);
+	margin-top: 50px;
+}
+p label{
+	display: inline-block;
+	font-size: 1.5em;
+	width: 200px;
+	height: 40px;
+	margin-right: 5px;
+	text-align: center;
+	padding: 10px;
+}
+
+input[type='text'],input[type='password'],input[type='email'],input[type='number']{
+	width: 300px;
+	height: 40px;
+	padding: 10px;
+	/*background-color: rgba(0,0,0,.3);*/
+	/*border-radius: 5px;*/
+	font-size: 1.2em;
+	/*margin: auto;*/
+}
+input[type="text"]:focus,input[type='password']:focus,input[type='email']:focus{
+	background-color: rgba(255,255,255,.5);
+	font-size: 1.2em;
+}
+input[type="submit"]{
+	background-color: crimson;
+	color: white;
+	padding: 10px;
+	border-radius: 5px;
+	font-size: 1em;
+	margin-left: 58%;
+}
+
+input[type="submit"]:hover{
+	background-color: rgb(206, 95, 95);
+}
+
+.already{
+	text-align: center;
+}
+.already p{
+	font-size: 1.5em;
+}
+.already a{
+	display: inline-block;
+	margin: 2px;
+	padding: 5px;
+	text-decoration: none;
+	border: 1px solid white;
+	background-color: royalblue;
+	font-size: 1.4em;
+	color: white;
+	border-radius: 5px;
+}
+.already a:hover{
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,27 @@
+header{
+	background-color: royalblue;
+	text-align: white;
+}
+
+header h1{
+	color: white;
+	font-size: 2.9em;
+	text-align: center;
+}
+nav{
+	margin-left: 25%;
+}
+nav a{
+	display: inline-block;
+	font-size: 1.5em;
+	color: white;
+	background-color: lightblue;
+	text-decoration: none;
+	padding: 5px;
+	color: blue;
+}
+
+nav a:hover{
+	color: darkblue;
+	background-color: white;
+}

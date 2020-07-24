@@ -1,0 +1,25 @@
+.content-table{
+	border-collapse: collapse;
+	margin: 0 0;
+	font-size: 0.9em;
+	min-width: 400px;
+	background-color:;
+}
+.content-table thead tr{
+	background-color: royalblue;
+	color: white;
+	text-align: left;
+	font-weight: bold;
+}
+.content-table th,.content-table td{
+	padding: 12px 15px;
+}
+.content-table tbody tr{
+	bottom-border: 1px solid grey;
+}
+
+.table{
+	
+
+	margin: auto;
+}
